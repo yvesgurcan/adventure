@@ -44,12 +44,6 @@ li {
   line-height: 1.4;
 }
 
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
-
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -262,6 +256,7 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: none;
 }
 
 /* Clearfix */
