@@ -20,6 +20,20 @@
     </div>
 
     <script>
+        const ERROR_ENDPOINT = 'errorendpoint';
+
+        // send request
+        function sendRequest(url, body) {
+            return fetch(url, {
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            });
+        }
+
+        // on submit
         if (document.forms.length > 0) {
             document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
@@ -35,13 +49,7 @@
                 });
                 console.log({ data });
                 try {
-                    const response = await fetch(endpoint, {
-                        method: 'post',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(data)
-                    });
+                    const response = await sendRequest(endpoint, data);
                     console.log({ response });
                     window.location.href = redirect;
                 } catch (error) {
@@ -49,6 +57,25 @@
                     setTimeout(() => window.location.href = redirect, 5000);
                 }
             };
+        }
+
+        // send general error
+        async function sendError(errorObject) {
+            try {
+                await sendRequest(ERROR_ENDPOINT, { type: 'unknown', errorObject });
+            } catch (error) {
+                console.error({ error });
+            }
+        }
+
+        // send 404 error
+        async function send404() {
+            try {
+                await fetch(ERROR_ENDPOINT, { type: '404', url: window.location.href });
+            } catch (error) {
+                console.error({ error });
+            }
+            console.log(window.location);
         }
     </script>
     
