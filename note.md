@@ -4,6 +4,6 @@ You get a pen and a piece of paper out of your folder. You contemplate the blind
     <div class="centered">
         <textarea id="note" style="width: 100%; max-width: 200px; height: 200px;"></textarea>
         <br />
-        <button>Stick the note onto the door and leave.</button>
+        <button type="submit">Stick the note onto the door and leave.</button>
     </div>
 </form>
