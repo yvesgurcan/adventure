@@ -22,7 +22,11 @@
     <script>
         if (document.forms.length > 0) {
             document.forms[0].onsubmit = event => {
-                console.log({ event });
+                const url = event.target.target;
+                console.log({ url });
+                event.target.elements.map(({ id, type, value }) => {
+                    console.log({ id, type, value });
+                });
             };
         }
     </script>
