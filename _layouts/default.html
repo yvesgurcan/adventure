@@ -21,8 +21,9 @@
 
     <script>
         if (document.forms.length > 0) {
-            document.forms[0].onsubmit = ({ preventDefault, target }) => {
-                preventDefault();
+            document.forms[0].onsubmit = (event) => {
+                event.preventDefault();
+                const { target } = event;
                 const endpoint = target.action;
                 const redirect = target.target;
                 console.log({ endpoint, redirect });
