@@ -23,6 +23,15 @@ $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .highlight {
   $plaintext: $alto !default;
   $string: $chelsea-cucumber !default;
@@ -146,6 +155,7 @@ body {
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
     monospace;
+  animation: fadein 1s;
 }
 
 /* General & 'Reset' Stuff */
