@@ -3,3 +3,6 @@ description: Senior Software Engineer at Nike (ETW).
 theme: jekyll-theme-hacker
 permalink: "/:title"
 google_analytics:
+
+sass:
+  style: compressed
