@@ -352,6 +352,18 @@ hr {
 form {
   display: flex;
   justify-content: center;
+
+  .centerd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+p,
+textarea,
+input {
+  font-size: 18px;
 }
 
 /* Buttons */
