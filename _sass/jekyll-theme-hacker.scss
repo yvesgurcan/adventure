@@ -146,6 +146,10 @@ dt {
   font-weight: bold;
 }
 
+ul {
+  padding: 0;
+}
+
 ul li:before {
   content: ">";
   color: $conifer;
