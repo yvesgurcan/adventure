@@ -21,18 +21,33 @@
 
     <script>
         if (document.forms.length > 0) {
-            document.forms[0].onsubmit = (event) => {
+            document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
                 const { target } = event;
                 const endpoint = target.action;
                 const redirect = target.target;
                 console.log({ endpoint, redirect });
-                console.log(target);
+                let data = {};
                 Array.from(target.elements).map(({ id, type, value }) => {
-                    console.log({ id, type, value });
+                    if (type === 'textarea' || type === 'input') {
+                        data[id] = value;
+                    }
                 });
-                fetch(endpoint);
-                setTimeout(() => window.location.href = redirect, 10000);
+                console.log({ data });
+                try {
+                    const response = await fetch(endpoint, {
+                        method: 'post',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data)
+                    });
+                    console.log({ response });
+                    window.location.href = redirect;
+                } catch (error) {
+                    console.error({ error });
+                    setTimeout(() => window.location.href = redirect, 5000);
+                }
             };
         }
     </script>
