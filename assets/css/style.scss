@@ -368,6 +368,26 @@ input {
 
 /* Buttons */
 
+button:before {
+  content: ">";
+  color: $conifer;
+  margin-right: 5px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  background: transparent;
+  color: inherit;
+  color: #63c0f5;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 .btn {
   display: inline-block;
   background: -webkit-linear-gradient(
