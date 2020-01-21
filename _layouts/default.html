@@ -11,14 +11,6 @@
 
   <body>
 
-    <div class="flex">
-        <div class="container">
-            <section id="main_content">
-                {{ content }}
-            </section>
-        </div>
-    </div>
-
     <script>
         const ERROR_ENDPOINT = 'errorendpoint';
 
@@ -33,6 +25,35 @@
             });
         }
 
+        // send general error
+        async function sendError(errorObject) {
+            try {
+                await sendRequest(ERROR_ENDPOINT, { type: 'unknown', errorObject });
+            } catch (error) {
+                console.error({ error });
+            }
+        }
+
+        // send 404 error
+        async function send404() {
+            try {
+                await fetch(ERROR_ENDPOINT, { type: '404', url: window.location.href });
+            } catch (error) {
+                console.error({ error });
+            }
+            console.log(window.location);
+        }
+    </script>
+
+    <div class="flex">
+        <div class="container">
+            <section id="main_content">
+                {{ content }}
+            </section>
+        </div>
+    </div>
+
+    <script>
         // on submit
         if (document.forms.length > 0) {
             document.forms[0].onsubmit = async (event) => {
@@ -57,25 +78,6 @@
                     setTimeout(() => window.location.href = redirect, 5000);
                 }
             };
-        }
-
-        // send general error
-        async function sendError(errorObject) {
-            try {
-                await sendRequest(ERROR_ENDPOINT, { type: 'unknown', errorObject });
-            } catch (error) {
-                console.error({ error });
-            }
-        }
-
-        // send 404 error
-        async function send404() {
-            try {
-                await fetch(ERROR_ENDPOINT, { type: '404', url: window.location.href });
-            } catch (error) {
-                console.error({ error });
-            }
-            console.log(window.location);
         }
     </script>
     
