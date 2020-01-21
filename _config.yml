@@ -1,5 +1,5 @@
 title: Yves Gurcan
 description: Senior Software Engineer at Nike (ETW).
 theme: jekyll-theme-hacker
-permalink: /:title:
+permalink: "/:title"
 google_analytics:
