@@ -349,8 +349,12 @@ hr {
   color: #b5e853;
 }
 
-/* Buttons
-*/
+form {
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons */
 
 .btn {
   display: inline-block;
