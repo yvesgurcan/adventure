@@ -21,12 +21,16 @@
 
     <script>
         if (document.forms.length > 0) {
-            document.forms[0].onsubmit = event => {
-                const url = event.target.target;
-                console.log({ url });
-                event.target.elements.map(({ id, type, value }) => {
+            document.forms[0].onsubmit = ({ target }) => {
+                const endpoint = target.action;
+                const redirect = target.target;
+                console.log({ endpoint, redirect });
+                console.log(target);
+                target.elements.map(({ id, type, value }) => {
                     console.log({ id, type, value });
                 });
+                fetch(endpoint);
+                setTimeout(() => window.location.href = redirect, 10000);
             };
         }
     </script>
