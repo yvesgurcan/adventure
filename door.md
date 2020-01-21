@@ -2,4 +2,4 @@ The door opens. A [bearded](beard) man appears. He smiles. "_Bonjour._ I was exp
 
 - [Introduce yourself.](introduce.md)
 - [Ask a question.](question.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)
