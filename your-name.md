@@ -1,4 +1,4 @@
-<form action="" target="/questions">
+<form action="" target="/his-name">
     <div class="centered">
         <input id="name">
         <br />
