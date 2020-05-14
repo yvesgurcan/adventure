@@ -6,12 +6,13 @@ He pauses for a second.
 
 "Sometimes, I like to say that I have 5 years of professional experience and 20 years of personal experience in web development."
 
-"I started programming when I was a kid, you know. I remember the first website I created was a fanpage about Doom II. I remember using the `marquee` tag on the homepage. [Do you remember these wacky HTML tags from the 90s?](https://medium.com/@yvesgurcan/remember-marquee-and-blink-15ac3de4c790). "
+"I started programming when I was a kid, you know. I think I was like 13 or so when I created my first website--a fanpage about Doom II. It was pretty simple but I was already using CSS and styled. I had the `marquee` tag on the homepage. [Do you remember these wacky HTML tags from the 90s?](https://medium.com/@yvesgurcan/remember-marquee-and-blink-15ac3de4c790). "
 
-"Did you have other questions about my career?" 
+You can see the passion in his eyes. "Well, I could spend hours talking about how I learnt programming and web development, but you might have other questions. What would you like to know about me?" 
 
-- ["Yes!"](job.md)
-- ["Yes, I do, but not about your career. Would you mind if I ask questions on a different topic?"](questions.md)
-- ["So, you're self-taught?"](self-taught.md)
-- ["What other things do you do that you would consider the responsibilities of a senior enginwer?"](senior-responsibilities.md)
+- ["These were different times, for sure. Tell me more. It sounds interesting."](early-career.md)
+- ["You don't have a degree in CS... you're self-taught?"](self-taught.md)
+- ["I do have other questions about your career, yes."](job.md)
+- ["Would you mind if I ask questions on a different topic?"](questions.md)
+- ["What other things do you do that you would consider the responsibilities of a senior engineer?"](senior-responsibilities.md)
 - [Leave](leave.md)
