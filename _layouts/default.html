@@ -64,6 +64,7 @@
         // action attribute: the endpoint where the data is sent in the background
         // target attribute: where the user is redirected to
         if (document.forms.length > 0) {
+            const formElements = document.forms[0].elements;
             document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
                 const { target } = event;
@@ -72,7 +73,7 @@
                 console.log({ endpoint, redirect });
                 let data = {};
                 let serialized data = '?';
-                Array.from(target.elements).map(({ id, type, value }) => {
+                Array.from(formElements).map(({ id, type, value }) => {
                     if (type === 'textarea' || type === 'input') {
                         data[id] = value;
                         serializedData += `${id}=${value}&`;
