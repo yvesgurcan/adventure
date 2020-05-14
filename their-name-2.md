@@ -4,6 +4,6 @@
     <div class="centered">
         <input id="name">
         <br />
-        <button type="submit">Say your name.</button>
+        <button type="submit">You say your name.</button>
     </div>
 </form>
