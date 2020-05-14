@@ -1,4 +1,4 @@
-You see a door in front of you. What do you do?
+You see a door in front of you.
 
 - [Knock.](door.md)
 - [Write a note.](note.md)
