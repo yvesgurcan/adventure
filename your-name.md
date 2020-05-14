@@ -1,7 +1,7 @@
-<form action="/their-name" method="GET">
+<form onsubmit="submit()">
     <div class="centered">
-        <input name="name">
+        <input id="name">
         <br />
-        <input type="submit" value="You say your name to the bearded man" />
+        <button type="submit">You say your name to the bearded man</button>
     </div>
 </form>
