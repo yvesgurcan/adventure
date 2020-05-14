@@ -8,4 +8,4 @@
 - ["What kind of language and frameworks do you work with?"](stack.md)
 - ["Do you live here?"](where.md)
 - ["Can I see your resume?"](resume.md)
-- ["Leave"](leave.md)
+- [Leave](leave.md)
