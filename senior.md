@@ -2,7 +2,9 @@
 
 He pauses for a second.
 
-"I believe that this title is a good way to express to people in this field that I know a thing or two about web development." He winks and then look at you for a reaction. Then, he resumes awkwardly: "Sorry, I guess it's kind of harder to express emojis in person. Did you have other questions?" 
+"I believe that this title is a good way to express to people in this field that I know a thing or two about web development." He winks awkwardly and then look at you expecting a reaction.
+
+He resumes after blushing a little bit: "Sorry, I guess it's kind of harder to express emojis in person. Did you have other questions?" 
 
 - ["Yes!"](job.md)
 - [Leave](leave.md)
