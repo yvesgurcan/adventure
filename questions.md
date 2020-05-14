@@ -1,4 +1,4 @@
-"You must have lots of questions. Go ahead, ask away."
+"You must have a lot of questions. Go ahead, ask away."
 
 - ["What do you do, exactly?"](job)
 - ["Where do you live?"](where)
