@@ -82,7 +82,7 @@ document.write(redirect)
                 });
                 console.log({ data });
                 try {
-                    const response = await sendRequest(endpoint, data);
+                    // const response = await sendRequest(endpoint, data);
                     console.log({ response });
                     window.location.href = redirect + serializedData;
                     // TODO: Save data in local storage with a session prefix
