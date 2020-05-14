@@ -67,8 +67,14 @@
             document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
                 const { target } = event;
+                // No endpoint yet to send input to
                 // const endpoint = target.action;
                 const redirect = target.target;
+              
+                if (!redirect {
+                    return;
+                }
+              
                 const { elements } = target;
                 console.log({ redirect });
                 let data = {};
@@ -82,7 +88,7 @@
                 });
                 console.log({ data });
                 try {
-                    // No endpoint yet to get input
+                    // No endpoint yet to send input to
                     // const response = await sendRequest(endpoint, data);
                     window.location.href = `${redirect}?${serializedData}`;
                     // TODO: Save data in local storage with a session prefix
