@@ -19,6 +19,10 @@
 
         // send request
         function sendRequest(url, body) {
+            if (!url) {
+                return;
+            }
+
             return fetch(url, {
                 method: 'post',
                 headers: {
