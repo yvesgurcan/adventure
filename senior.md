@@ -9,7 +9,7 @@ He pauses for a second.
 "Did you have other questions about my career?" 
 
 - ["Yes!"](job.md)
-- ["Yes, I do, but not about your career. Do you mind?"](questions.md)
+- ["Yes, I do, but not about your career. Would you mind if I ask questions on a different topic?"](questions.md)
 - ["So, you're self-taught?"](self-taught.md)
 - ["What other things do you do that you would consider the responsibilities of a senior enginwer?"](senior-responsibilities.md)
 - [Leave](leave.md)
