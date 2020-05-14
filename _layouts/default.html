@@ -74,16 +74,16 @@
                 let data = {};
                 let serializedData = '';
                 Array.from(elements).map(({ id, type, value }) => {
-                    console.log({ element: { id, type, value} })
                     if (type === 'textarea' || type === 'input') {
+                        console.log(JSON.stringify({ element: { id, type, value} }))
                         data[id] = value;
                         serializedData += `${id}=${value}&`;
                     }
                 });
                 console.log({ data });
                 try {
+                    // No endpoint yet to get input
                     // const response = await sendRequest(endpoint, data);
-                    // console.log({ response });
                     window.location.href = `${redirect}?${serializedData}`;
                     // TODO: Save data in local storage with a session prefix
                 } catch (error) {
