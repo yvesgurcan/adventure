@@ -1,5 +1,5 @@
 
-"Pleased to meet you, <span id="name"></span>. the man says. "My name is Yves."
+"Pleased to meet you, <span id="name"></span>. My name is Yves."
 
 - ["What?"](name-details.md)
 - ["Enchanté."](french.md)
