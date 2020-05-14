@@ -4,8 +4,9 @@ He pauses for a second.
 
 "I believe that this title is a good way to express to people in this field that I know a thing or two about web development." He winks awkwardly and then look at you expecting a reaction.
 
-He resumes after blushing a little bit: "Sorry, I guess it's kind of hard to express emojis in person. Did you have other questions?" 
+He resumes after blushing a little bit: "Sorry, I guess it's kind of hard to express emojis in person. Did you have other questions about my career?" 
 
 - ["Yes!"](job.md)
+- ["Yes, I do, but not about your career. Do you mind?"](questions.md)
 - ["Tell me your name again."](their-name-2.md)
 - [Leave](leave.md)
