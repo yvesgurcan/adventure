@@ -1,10 +1,11 @@
-<form onsubmit="submit()">
-    <div class="centered">
-        <input id="name">
-        <br />
-        <button type="submit">You say your name to the bearded man</button>
-    </div>
-</form>
+
+<div class="centered">
+    <input id="name">
+    <br />
+    <button onclick="submit()">You say your name to the bearded man</button>
+</div>
+
+
 
 <script>
 function submit() {
