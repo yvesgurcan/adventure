@@ -1,6 +1,6 @@
 "You must have a lot of questions. Go ahead, ask away."
 
-- ["What do you do, exactly?"](job)
+- ["Can you tell me a little bit more about yourself?"](job)
 - ["Where do you live?"](where)
 - ["Where do you come from?"](french)
 - ["What is this all about?"](about)
