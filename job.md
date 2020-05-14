@@ -1,4 +1,4 @@
-"I'm a senior software engineer," he says. "I like to call myself a product-minded engineer because I do so much more than writing code." The man starts stroking his bushy beard mechanically as he is thinking about his next words. "I enjoy very much managing projects and writing technical documentation, for example."
+"I'm a senior software engineer," he says. "I like to call myself a product-minded engineer because I do so much more than writing code." The man starts stroking his bushy beard mechanically as he thinks about his next words. "I enjoy very much managing projects and writing technical documentation, for example."
 
 - ["Who do you work for?"](work)
 - ["A senior software engineer, you say. How many years of experience do you have?"](senior)
