@@ -73,9 +73,9 @@
                 console.log({ redirect });
                 let data = {};
                 let serializedData = '';
-                Array.from(elements).map(({ id, type, value }) => {
-                    console.log(JSON.stringify({ element: { id, type, value} }))
-                    if (type === 'textarea' || type === 'input') {
+                Array.from(elements).map(({ id, nodeName, value }) => {
+                    console.log(JSON.stringify({ element: { id, nodeName, value} }))
+                    if (nodeName === 'TEXTAREA' || nodeName === 'INPUT') {
                         data[id] = value;
                         serializedData += `${id}=${value}&`;
                     }
