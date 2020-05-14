@@ -70,10 +70,11 @@
                 const endpoint = target.action;
                 const redirect = target.target;
                 const { elements } = target;
-                console.log({ endpoint, redirect, elements });
+                console.log({ endpoint, redirect });
                 let data = {};
                 let serializedData = '';
                 Array.from(elements).map(({ id, type, value }) => {
+                    console.log({ element: { id, type, value} })
                     if (type === 'textarea' || type === 'input') {
                         data[id] = value;
                         serializedData += `${id}=${value}&`;
