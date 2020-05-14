@@ -1,4 +1,4 @@
-"Nice to meet you, <span id="name"></span>," he says. "Sounds like a lovely name. What brings you here?"
+"Nice to meet you, <span id="name"></span>," he says. "Sounds like a lovely name. Can you tell me more about yourself?"
 
 - ["I would like to ask you some questions."](questions.md)
 - ["Not much. Just wanted to say hi."](hi.md)
