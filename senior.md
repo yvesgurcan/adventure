@@ -4,7 +4,7 @@ He pauses for a second.
 
 "I've noticed that 'senior software engineer' is a good way to express to people in this field that I know a thing or two about web development. Since I don't have a degree in computer science, I found other ways to legitimize my professionalism and skills, like this title."
 
-"Sometimes, I like to say that I have 5 years of professional experience and 20 years of personal experience in web development. I started programming when I was a kid, you know. I think I was like 13 or so when I created my first website--a fanpage about Doom II. It was pretty simple but I was already using CSS and styled. I had the `marquee` tag on the homepage. [Do you remember these wacky HTML tags from the 90s?](https://medium.com/@yvesgurcan/remember-marquee-and-blink-15ac3de4c790). "
+"Sometimes, I like to say that I have 5 years of professional experience and 20 years of personal experience in web development. I started programming when I was a kid, you know. I think I was like 13 or so when I created my first website. A fanpage about Doom II. It was pretty simple but I was already using CSS and styled. I had the `marquee` tag on the homepage. [Do you remember these wacky HTML tags from the 90s?](https://medium.com/@yvesgurcan/remember-marquee-and-blink-15ac3de4c790). "
 
 You can see the passion in his eyes. "Well, I could spend hours talking about how I learnt programming and web development, but you might have other questions. What would you like to know about me?" 
 
