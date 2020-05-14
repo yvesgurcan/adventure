@@ -2,11 +2,14 @@
 
 He pauses for a second.
 
-"I believe that this title is a good way to express to people in this field that I know a thing or two about web development." He winks awkwardly and then look at you expecting a reaction.
+"I've noticed that 'senior software engineer' is a good way to express to people in this field that I know a thing or two about web development. Since I don't have a degree in computer science, I found other ways to legitimize my professionalism and skills, like this title."
 
-He resumes after blushing a little bit: "Sorry, I guess it's kind of hard to express emojis in person. Did you have other questions about my career?" 
+"Sometimes, I like to say that I have 5 years of professional experience and 20 years of personnal experience of web development. I started programming when I was a kid, you know. I remember the first website I created was a fanpage about Doom II. I remember using the `marquee` tag on the homepage. [Do you remember these wacky HTML tags from the 90s?](https://medium.com/@yvesgurcan/remember-marquee-and-blink-15ac3de4c790). "
+
+"Did you have other questions about my career?" 
 
 - ["Yes!"](job.md)
 - ["Yes, I do, but not about your career. Do you mind?"](questions.md)
-- ["Tell me your name again."](their-name-2.md)
+- ["So, you're self-taught?"](self-taught.md)
+- ["What other things do you do that you would consider the responsibilities of a senior enginwer?"](senior-responsibilities.md)
 - [Leave](leave.md)
