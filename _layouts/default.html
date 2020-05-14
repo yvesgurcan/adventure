@@ -67,15 +67,15 @@
             document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
                 const { target } = event;
-                const endpoint = target.action;
+                // const endpoint = target.action;
                 const redirect = target.target;
                 const { elements } = target;
-                console.log({ endpoint, redirect });
+                console.log({ redirect });
                 let data = {};
                 let serializedData = '';
                 Array.from(elements).map(({ id, type, value }) => {
+                    console.log(JSON.stringify({ element: { id, type, value} }))
                     if (type === 'textarea' || type === 'input') {
-                        console.log(JSON.stringify({ element: { id, type, value} }))
                         data[id] = value;
                         serializedData += `${id}=${value}&`;
                     }
