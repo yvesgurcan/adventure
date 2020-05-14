@@ -2,7 +2,7 @@
 
 "I very much enjoy managing projects and writing technical documentation, for example."
 
-- ["Can you give me some examples?"](projects.md)
+- ["Really? Tell me more."](projects.md)
 - ["What's your current job?"](work.md)
 - ["How many years of experience do you have?"](senior.md)
 - ["What kind of language and frameworks do you work with?"](stack.md)
