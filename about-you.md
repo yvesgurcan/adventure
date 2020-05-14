@@ -1,4 +1,4 @@
-"Nice to meet you, <span id="name"></span>. I'm happy you came here. Can you tell me more about yourself?"
+"Nice to meet you, <span id="name"></span>. I'm happy you came here. What brings you here?"
 
 <form target="/about-you-thanks">
     <div class="centered" style="max-width: 600px; width: 100%">
