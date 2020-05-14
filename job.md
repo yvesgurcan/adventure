@@ -3,7 +3,7 @@
 "I very much enjoy managing projects and writing technical documentation, for example."
 
 - ["What's your current job?"](work)
-- ["A senior software engineer, you say. How many years of experience do you have?"](senior)
+- ["How many years of experience do you have?"](senior)
 - ["What kind of language and frameworks do you work with?"](stack)
 - ["Do you live here?"](where)
 - ["Can I see your resume?"](resume)
