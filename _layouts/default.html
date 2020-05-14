@@ -57,6 +57,8 @@
 
     <script>
         // on submit
+        // action attribute: the endpoint where the data is sent in the background
+        // target attribute: where the user is redirected to
         if (document.forms.length > 0) {
             document.forms[0].onsubmit = async (event) => {
                 event.preventDefault();
@@ -65,16 +67,19 @@
                 const redirect = target.target;
                 console.log({ endpoint, redirect });
                 let data = {};
+                let serialized data = '?';
                 Array.from(target.elements).map(({ id, type, value }) => {
                     if (type === 'textarea' || type === 'input') {
                         data[id] = value;
+                        serializedData += `${id}=${value}&`;
                     }
                 });
                 console.log({ data });
                 try {
                     const response = await sendRequest(endpoint, data);
                     console.log({ response });
-                    window.location.href = redirect;
+                    window.location.href = redirect + serializedData;
+                    // TODO: Save data in local storage with a session prefix
                 } catch (error) {
                     console.error({ error });
                     setTimeout(() => window.location.href = redirect, 5000);
