@@ -288,6 +288,7 @@ dt {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 ul li:before {
@@ -370,6 +371,10 @@ input {
     font-size: 18px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.no-right-margin {
+    margin-right: 0;
 }
 
 /* Buttons */
