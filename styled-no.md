@@ -1,5 +1,5 @@
 
-"No worries. I can explain real quick, if you want. If you go to <https://styled.yvesgurcan.com>, you'll find a demo I've put together to explain some neat features to my coworkers at the time."
+"No worries. I can explain real quick, if you want. You can go to <https://styled.yvesgurcan.com>, you'll find a demo I've put together to explain some neat features to my coworkers at the time."
 
 "Essentially, with styled components, you're writing CSS. But you can use JavaScript in your components because, in reality, your CSS is just a string. It's super handy if you want to use variables and `if` statements, for example."
 
