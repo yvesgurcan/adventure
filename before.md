@@ -1,4 +1,6 @@
-"Ah, good question!" The man exclaims. "Well, I used to live in France. I was born and raised in the suburbs of Paris but my family roots are in Burgundy. My grandfather was a winemaker. How about you? Where did you grow up?"
+"Ah, good question!" The man exclaims. "Well, I used to live in France. I was born and raised in the suburbs of Paris but my family roots are in Burgundy. My grandfather was a winemaker."
+
+"How about you? Where did you grow up?"
 
 - ["A winemaker?"](grandfather.md)
 
