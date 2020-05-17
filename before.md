@@ -2,6 +2,7 @@
 
 "How about you? Where did you grow up?"
 
+- ["Wait. Are you French?"](french.md)
 - ["A winemaker?"](grandfather.md)
 
 <form class="uncentered" target="/answer-where">
