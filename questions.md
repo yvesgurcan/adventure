@@ -4,4 +4,4 @@
 - ["Can you present yourself?"](job.md)
 - ["Is this your house?"](where.md)
 - ["Where do you come from?"](french.md)
-- ["Are you looking for a job right now?"](looking.md)
+- ["So, you want to work at Tailwind?"](position.md)
