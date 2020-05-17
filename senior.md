@@ -12,5 +12,4 @@ He pauses for a second.
 - ["You're self-taught?"](self-taught.md)
 - ["I do have other questions about your career, yes."](job-2.md)
 - ["Would you mind if I ask questions on a different topic?"](questions.md)
-- ["What other things do you do that you would consider the responsibilities of a senior engineer?"](senior-responsibilities.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)
