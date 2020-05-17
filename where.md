@@ -2,3 +2,4 @@
 
 - ["What brought you to the West Coast of the US?"](us.md)
 - ["Where did you live before?"](before.md)
+- ["Do you work from home?"](remote.md)
