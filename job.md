@@ -1,4 +1,4 @@
-"I'm a senior software engineer," he says. "I like to call myself a product-minded developer because I do much more than writing code." The man starts stroking his bushy beard mechanically as he thinks about his next words.
+"Professionally? I'm a senior software engineer," he says. "I like to call myself a product-minded developer because I do much more than writing code." The man starts stroking his bushy beard mechanically as he thinks about his next words.
 
 "I very much enjoy managing projects and writing technical documentation, for example."
 
