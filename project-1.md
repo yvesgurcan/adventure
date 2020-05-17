@@ -12,4 +12,4 @@ He hands you his phone and shows you an image.
 
 - ["Did you create the visual design yourself?"](skillbuilder-styles.md)
 - ["What kind of language and frameworks did you use?"](skillbuilder-tech.md)
-- ["Looks neat. What other projects did you work on in your career?"](project-2.md)
+- ["Looks neat. What other projects did you work on in your career?"](work.md)
