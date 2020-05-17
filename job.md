@@ -10,4 +10,4 @@ The man starts to stroke his bushy beard mechanically as he thinks about his nex
 - ["What kind of language and frameworks do you work with?"](stack.md)
 - ["Do you live here?"](where.md)
 - ["Can I see your resume?"](resume.md)
-- [Leave.md](leave.md)
+- [Leave.](leave.md)
