@@ -1,6 +1,5 @@
 "You must have a lot of questions. Go ahead, ask away."
 
-- ["I don't know where to start."](random.md)
 - ["What's your name?"](their-name-2.md)
 - ["Tell me a bit about yourself."](job.md)
 - ["Why do you think we're a great fit for each other?"](fit.md) 
