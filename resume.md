@@ -6,6 +6,5 @@ You're about to respond but he interrupts you again. "My CV is on [Stack Overflo
 
 You can feel his stare as you're trying to focus on the document.
 
-- [You read the document while standing here.](read-resume.md)
 - ["Thanks! I'll get to it later."](questions.md)
 - [Leave.](leave.md)
