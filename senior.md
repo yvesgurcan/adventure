@@ -8,7 +8,6 @@ He pauses for a second.
 
 "Well, I could spend hours talking about how I learnt programming and web development, but you might have other questions. What would you like to know about me?"
 
-- ["Please go on. It sounds interesting."](early-career.md)
 - ["You're self-taught?"](self-taught.md)
 - ["I do have other questions about your career, yes."](job-2.md)
 - ["Would you mind if I ask questions on a different topic?"](questions.md)
