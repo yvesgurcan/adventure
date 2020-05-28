@@ -9,5 +9,5 @@ He pauses for dramatic effect.
 "So, it boils done to making a good first impression, right?"
 
 - ["True."](fit-go-on.md)
-- [Say nothing.](fit-what-else.md)
+- [You say nothing.](fit-what-else.md)
 - [Leave.](leave.md)
