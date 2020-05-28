@@ -11,5 +11,4 @@ He hands you his phone and shows you an image.
 "What do you think?"
 
 - ["Did you create the visual design yourself?"](skillbuilder-styles.md)
-- ["What kind of language and frameworks did you use?"](stack.md)
 - ["Looks neat. What other projects did you work on in your career?"](parallel45.md)
