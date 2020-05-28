@@ -1,4 +1,4 @@
-"Well, the good news is that assessing if we're a fit is a gamble for both of us."
+"Well, the good news is that assessing if we're a good fit is a gamble for both of us."
 
 He pauses for dramatic effect.
 
