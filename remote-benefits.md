@@ -4,7 +4,7 @@
 
 He raises his thumb.
 
-"I'm all in when it comes to let the user find themselves the answer they need when they need it."
+"I'm all about letting the user find themselves the answer they need when they need it."
 
 - ["What challenges did you face working remotely?"](remote-challenges.md)
 - ["Makes sense."](questions.md)
