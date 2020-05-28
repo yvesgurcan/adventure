@@ -1,6 +1,6 @@
 "Social isolation is probably the challenge that is the most difficult for me. I think this is more related to COVID-19 than working remotely, though."
 
-You notice that his hair might be a little too long than usual for him.
+You notice that his hair might be a little longer than usual for him.
 
 "I participate in several video meetups with friends to make up for it but there are other activities that are just not the same. Playing an online game on a phone, for example, is not as fun as the experience of a group of people playing board games around a table."
 
