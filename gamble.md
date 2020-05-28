@@ -3,4 +3,4 @@
 - ["What?"](fit.md)
 - ["Sure."](fit-go-on.md)
 - ["If you say so."](fit.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)

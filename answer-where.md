@@ -2,7 +2,7 @@
 
 - ["Thanks. What brought you to the West Coast?"](us.md)
 - ["So, you're French?"](french.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)
 
 <script>
 const urlParams = new URLSearchParams(window.location.search);

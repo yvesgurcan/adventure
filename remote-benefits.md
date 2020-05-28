@@ -9,4 +9,4 @@ He raises his thumb.
 - ["What challenges did you face working remotely?"](remote-challenges.md)
 - ["Makes sense."](questions.md)
 - ["So, you think we are a good fit?"](fit-what-else.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)

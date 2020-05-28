@@ -6,4 +6,4 @@
 
 - ["I see. What do you think is the upside of remote work?"](remote-benefits.md)
 - ["Fair enough."](questions.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)

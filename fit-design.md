@@ -1,5 +1,5 @@
 
-"On another note, I enjoy implementing neat visual designs for the applications I develop. I still don't understand why CSS gets a bad rap. Maybe the perception has changed now with styled components and CSS-in-JS?" 
+"I enjoy implementing neat visual designs for the applications I develop. I still don't understand why CSS gets a bad rap. Maybe the perception has changed now with styled components and CSS-in-JS?" 
 
 "Oh, did I show you screenshots of Lesson Builder, by the way?"
 

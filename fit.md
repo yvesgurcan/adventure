@@ -8,7 +8,6 @@ He pauses for dramatic effect.
 
 "So, it boils done to making a good first impression, right?"
 
-- ["Your interviewed for your clients?"](factotum.md)
 - ["True."](fit-go-on.md)
 - [Say nothing.](fit-what-else.md)
 - [Leave.](leave.md)

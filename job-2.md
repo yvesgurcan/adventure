@@ -5,4 +5,4 @@
 - ["What's your programming language of choice?"](stack.md)
 - ["You live in the Northwest?"](where.md)
 - ["Do you have an updated CV?"](resume.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)

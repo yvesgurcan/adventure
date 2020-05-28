@@ -2,4 +2,4 @@
 
 - ["Ah, ok."](questions.md)
 - ["Really?"](french.md)
-- [Leave](leave.md)
+- [Leave.](leave.md)
